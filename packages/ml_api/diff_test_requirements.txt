@@ -11,3 +11,4 @@ regression-model==2.0.19
 
 # temporarily necessary as we update sklearn
 joblib>=0.14.1,<0.15.0
+jinja2>=3.1.3 # not directly required, pinned by Snyk to avoid a vulnerability
