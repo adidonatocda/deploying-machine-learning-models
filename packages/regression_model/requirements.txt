@@ -17,3 +17,4 @@ wheel>=0.33.6,<0.34.0
 
 # fetching datasets
 kaggle>=1.5.6,<1.6.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
