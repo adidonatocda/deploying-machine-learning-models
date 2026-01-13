@@ -17,3 +17,5 @@ wheel>=0.33.6,<0.34.0
 
 # fetching datasets
 kaggle>=1.5.6,<1.6.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
