@@ -1,4 +1,4 @@
-FROM python:3.6.4
+FROM python:3.12.0a3
 
 # Create the user that will run the app
 RUN adduser --disabled-password --gecos '' ml-api-user
